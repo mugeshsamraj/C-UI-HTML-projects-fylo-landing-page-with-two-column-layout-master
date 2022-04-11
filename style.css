@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    color: #535353;
+}
+
+:root{
+    blue-background: #575989;
+    dark-background: #07043B;
+}
+
+h2{
+    color: black;
+    padding-left: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+p{
+    color: black;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.navbar {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+
+.brand {
+    display: flex;
+}
+
+.brand .logo {
+    width: 175px;
+    height: 45px;
+}
+
+.navbar .nav-list ul {
+  display: flex;
+  margin:0 5px;
+  color:hsl(238, 22%, 44%);
+}
+
+.navbar .nav-list ul li {
+  margin: 0px 12px;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.navbar .nav-list ul li a {
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main-page {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-shrink: 1;
+    width: 50%;
+}
+
+.content .short-1{
+    padding-left: 1rem;
+}
+.sidebar .pro-image{
+    display: flex;
+    width: 100%;
+    height: 75%;
+    padding-left: 2rem;
+}
+
+form{
+    display: flex;
+    gap: 1rem;
+}
+
+.short-1 form input{
+    width: 22.5rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+}
+
+.button{
+    background-color:#1B66CA;
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+span .btn{
+    color: white;
+}
+
+.main-page2{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    background: url(../images/bg-curve-desktop.svg) no-repeat center center/cover;
+}
+
+.sidebar-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.content-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-shrink: 1;
+    width: 75%;
+}
+
+.sidebar-2 .pro-image{
+    display: flex;
+    width: 70%;
+    height: 75%;
+    padding-left: 2rem;
+}
+
+span {
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+    color: white
+    text-decoration: underline;
+}
+
+.sidebar-2 .content-2 span:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.content-2 .flying{
+    display: flex;
+    width: 55%;
+    padding: 0.5rem;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.021);
+}
+
+.content-2 .flying h4{
+    font-size: 1rem;
+    color: black;
+    padding-left: 1rem;
+}
+.content-2 .flying p{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+.founder{
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: repeat(0, 1fr);
+}
+
+.founder .founder-name{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.founder img{
+    border-radius: 50%;
+}
+
+.main-page3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #575989;
+    width: 100%;
+    padding: 2rem;
+    padding-top: 4rem;
+}
+
+.main-page3 .access{
+    width: 50%;
+    padding-right: 1rem;
+}
+.main-page3 .access h2{
+    color: white;
+}
+
+.main-page3 .access p{
+    color: white;
+}
+
+.main-page3 .register{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-page3 .register form{
+    display: flex;
+    flex-direction: column;
+}
+
+.register input{
+    width: 25rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+}
+
+.register button .btn{
+    height: 2.5rem;
+    width: 15rem;
+    border: none;
+    color: white;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.021);
+    text-decoration: none;
+}
+
+footer{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: rgb(4, 4, 66);
+    display: flex;
+    flex-direction: column;
+}
+
+footer .part-1{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer .part-1 img{
+    color: white;
+}
+
+footer .second{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+}
+
+footer .second .contact{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+footer .second .contact .phone{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    gap: 2rem;
+}
+
+footer .second .contact .mail{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    gap: 2rem;
+}
+footer .second .contact p{
+    color: white;
+    padding: 0;
+}
+
+footer .part-2{
+    width: 35%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    color: white;
+    text-decoration: none;
+}
+
+footer .part-2 ul li{
+    align-self: auto;
+    line-height: 2rem;
+    list-style: none;
+}
+
+footer .part-2 ul li:hover{
+    cursor: pointer;
+    color: honeydew;
+}
+
+footer .part-3{
+    width: 12.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
